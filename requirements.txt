@@ -1,0 +1,16 @@
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+yfinance>=0.2.40
+arch>=6.0          # GARCH(1,1) por MLE
+matplotlib>=3.7
+openpyxl>=3.1
+pyarrow>=14.0
+statsmodels>=0.14
+tqdm
+requests>=2.31     # download do COTAHIST (scripts/download_cotahist.py)
+
+# desenvolvimento / reprodução completa
+pytest>=7.4        # testes de sanidade (tests/)
+jupyter            # execução dos notebooks
+nbformat>=5.9      # scripts/_build_nb*.py

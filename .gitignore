@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Dados pesados (baixar via scripts/download_precos.py e download_cotahist.py)
+data/precos_ibov.parquet
+data/precos_ibov_wide.csv
+data/relatorio_download.txt
+data/cotahist_faltantes.csv
+cotahist_zips/
+
+# Saídas de backtest
+reports/*.html
+*.log

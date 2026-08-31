@@ -1,0 +1,11 @@
+month,old,new,type,detail
+2023-09,VIIA3,BHIA3,ticker_change,Via vira Grupo Casas Bahia; ticker muda de VIIA3 para BHIA3 (set/2023).
+2023-12,ALSO3,ALOS3,ticker_change,"Aliansce Sonae + BR Malls viram Allos; ticker muda de ALSO3 para ALOS3 (nov-dez/2023, 'a partir do dia 25')."
+2024-08,RRRP3,BRAV3,ticker_change,Combinacao 3R Petroleum + Enauta cria Brava Energia; RRRP3 substituido por BRAV3 (ago-set/2024).
+2024-11,TRPL4,ISAE4,ticker_change,ISA CTEEP vira ISA Energia Brasil; TRPL4 -> ISAE4 (nov/2024).
+2025-05,CCRO3,MOTV3,ticker_change,CCR vira Motiva; CCRO3 -> MOTV3 em 02/05/2025.
+2025-07,NTCO3,NATU3,ticker_change,Natura Cosmeticos incorpora Natura &Co; NTCO3 -> NATU3 (estreia inicio de jul/2025).
+2025-11,EMBR3,EMBJ3,ticker_change,Embraer muda ticker para EMBJ3 em 03/11/2025.
+2025-11,ELET3,AXIA3,ticker_change,Eletrobras vira Axia Energia em 10/11/2025; ELET3/ELET5/ELET6 -> AXIA3/AXIA5/AXIA6 (no indice: ELET3->AXIA3 e ELET6->AXI
+2025-11,ELET6,AXIA6,ticker_change,Ver evento ELET3 (Axia Energia).
+2025-12,CPLE6,CPLE3,ticker_change,Copel: unificacao de classes e migracao ao Novo Mercado; CPLE6 (e CPLE5/CPLE11) convertidas em CPLE3 (dez/2025 - inicio 

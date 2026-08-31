@@ -1,0 +1,1453 @@
+{
+ "events": [
+  {
+   "ticker": "BIDI4",
+   "date": "2019-07-04",
+   "date_precision": "day",
+   "type": "split",
+   "factor": 6.0,
+   "value_per_share": null,
+   "detail": "Desdobramento 1:6 das acoes ON/PN (BIDI3/BIDI4). Aprovado AGE 26-27/06/2019, data-base 03/07/2019, ex 04/07/2019. Nao se aplica a BIDI11 (units criadas depois, em jul-ago/2019). Corroborado pela queda ~6x do JCP por acao entre jun/2019 e set/2019.",
+   "source": "https://www.dadosdemercado.com.br/acoes/bidi4 ; https://www.infomoney.com.br/negocios/banco-inter-fara-desdobramento-de-acoes-na-proporcao-de-1-para-6/",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI4",
+   "date": "2021-05-26",
+   "date_precision": "day",
+   "type": "split",
+   "factor": 3.0,
+   "value_per_share": null,
+   "detail": "Desdobramento 1:3. Homologacao BACEN 20/05/2021, data-base 25/05/2021, ex 26/05/2021, credito 28/05/2021. Aplicou-se igualmente a acoes e units.",
+   "source": "https://www.dadosdemercado.com.br/acoes/bidi4 ; https://www.poupardinheiro.com.br/banco-inter-bidi11-aprova-desdobramento-de-acoes-data-base-e-25-de-maio",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI11",
+   "date": "2021-05-26",
+   "date_precision": "day",
+   "type": "split",
+   "factor": 3.0,
+   "value_per_share": null,
+   "detail": "Desdobramento 1:3 aplicado tambem as units (composicao mantida em 1 ON + 2 PN; quantidade de units triplicou). Data-base 25/05/2021, ex 26/05/2021. OBS: o split 1:6 de jul/2019 NAO afeta a serie BIDI11 (units passaram a negociar apos o split).",
+   "source": "https://www.poupardinheiro.com.br/banco-inter-bidi11-aprova-desdobramento-de-acoes-data-base-e-25-de-maio",
+   "confidence": "high"
+  },
+  {
+   "ticker": "AXIA6",
+   "date": "2025-12-22",
+   "date_precision": "day",
+   "type": "bonificacao",
+   "factor": 1.0,
+   "value_per_share": null,
+   "detail": "Bonificacao EM OUTRA CLASSE: cada acao AXIA6 (e AXIA3/AXIA5) recebeu 0,2628378881074 acao preferencial classe C (AXIA7), via capitalizacao de R$30,0 bi de reservas (AGE 19/12/2025). Data-com 19/12/2025, ex 22/12/2025, credito 26/12/2025; AXIA7 negociada na B3 desde 22/12/2025. A quantidade de acoes AXIA6 NAO mudou (factor 1.0) - mas o preco de AXIA6 ajusta na ex-data pelo valor de 0,2628378881074 x preco da AXIA7 (valor atribuido: R$49,44 por AXIA7, ou seja ~R$13,00 por AXIA6 como custo fiscal; para ajuste de preco preferir o preco de mercado de abertura de AXIA7 em 22/12/2025). Total emitido: 606.796.117 PNC.",
+   "source": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?Tela=99&numSequencia=979023&numVersao=1&numProtocolo=1454311&descTipo=IPE&CodigoInstituicao=1 ; https://www.seudinheiro.com/2025/empresas/axia-energia-axia6-vai-distribuir-r-30-bilhoes-em-bonificacao-de-acoes-kaes/",
+   "confidence": "high"
+  },
+  {
+   "ticker": "PETZ3",
+   "date": "2020-12-23",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.03314862,
+   "detail": "JCP bruto; data-com 22/12/2020, ex 23/12/2020.",
+   "source": "https://statusinvest.com.br/acoes/petz3",
+   "confidence": "high"
+  },
+  {
+   "ticker": "PETZ3",
+   "date": "2021-05-03",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.00656632,
+   "detail": "Dividendo; data-com 30/04/2021.",
+   "source": "https://statusinvest.com.br/acoes/petz3",
+   "confidence": "high"
+  },
+  {
+   "ticker": "PETZ3",
+   "date": "2021-07-01",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.01269064,
+   "detail": "JCP bruto; data-com 30/06/2021.",
+   "source": "https://statusinvest.com.br/acoes/petz3",
+   "confidence": "medium"
+  },
+  {
+   "ticker": "PETZ3",
+   "date": "2021-12-24",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.02298545,
+   "detail": "JCP bruto; data-com 23/12/2021.",
+   "source": "https://statusinvest.com.br/acoes/petz3",
+   "confidence": "high"
+  },
+  {
+   "ticker": "PETZ3",
+   "date": "2022-04-27",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.00470936,
+   "detail": "Dividendo; data-com 26/04/2022.",
+   "source": "https://statusinvest.com.br/acoes/petz3",
+   "confidence": "high"
+  },
+  {
+   "ticker": "PETZ3",
+   "date": "2022-06-29",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.00652259,
+   "detail": "JCP bruto; data-com 28/06/2022.",
+   "source": "https://statusinvest.com.br/acoes/petz3",
+   "confidence": "high"
+  },
+  {
+   "ticker": "PETZ3",
+   "date": "2022-07-01",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.01269064,
+   "detail": "JCP bruto; data-com 30/06/2022. ATENCAO: valor identico ao JCP com data-com 30/06/2021 - possivel duplicidade na fonte (StatusInvest); tratar como baixa confianca.",
+   "source": "https://statusinvest.com.br/acoes/petz3",
+   "confidence": "low"
+  },
+  {
+   "ticker": "PETZ3",
+   "date": "2022-12-26",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.01083088,
+   "detail": "JCP bruto; data-com 23/12/2022.",
+   "source": "https://statusinvest.com.br/acoes/petz3",
+   "confidence": "high"
+  },
+  {
+   "ticker": "PETZ3",
+   "date": "2023-04-25",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.01054755,
+   "detail": "Dividendo; data-com 24/04/2023.",
+   "source": "https://statusinvest.com.br/acoes/petz3",
+   "confidence": "high"
+  },
+  {
+   "ticker": "PETZ3",
+   "date": "2023-07-03",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.00648689,
+   "detail": "JCP bruto; data-com 30/06/2023.",
+   "source": "https://statusinvest.com.br/acoes/petz3",
+   "confidence": "high"
+  },
+  {
+   "ticker": "PETZ3",
+   "date": "2024-05-02",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.00277599,
+   "detail": "Dividendo; data-com 30/04/2024.",
+   "source": "https://statusinvest.com.br/acoes/petz3",
+   "confidence": "high"
+  },
+  {
+   "ticker": "PETZ3",
+   "date": "2024-11-14",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.28829725,
+   "detail": "Dividendo extraordinario pre-fusao Cobasi (R$130 mi); data-com 13/11/2024, pago 29/11/2024. Confirmado por XP e Seu Dinheiro (R$0,2883/acao).",
+   "source": "https://statusinvest.com.br/acoes/petz3 ; https://www.seudinheiro.com/2025/empresas/fusao-entre-petz-petz3-e-cobasi-finalmente-vai-sair-do-papel-veja-cronograma-da-operacao-e-o-que-muda-para-acionistas-kaes-cbcb/",
+   "confidence": "high"
+  },
+  {
+   "ticker": "SOMA3",
+   "date": "2022-05-02",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.09073011,
+   "detail": "Dividendo; data-com 29/04/2022, pago 24/06/2022.",
+   "source": "https://www.dadosdemercado.com.br/acoes/soma3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "SOMA3",
+   "date": "2023-05-02",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.101443,
+   "detail": "Dividendo; data-com 29/04/2023, pago 28/06/2023.",
+   "source": "https://www.dadosdemercado.com.br/acoes/soma3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "SOMA3",
+   "date": "2024-03-21",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.08821816,
+   "detail": "Dividendo; data-com 20/03/2024, pago 03/04/2024. Ultimo provento antes da incorporacao pela Arezzo (AZZA3, 01/08/2024).",
+   "source": "https://www.dadosdemercado.com.br/acoes/soma3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BPAN4",
+   "date": "2020-12-23",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.20424755,
+   "detail": "JCP bruto; data-com 22/12/2020, pago 26/02/2021.",
+   "source": "https://www.dadosdemercado.com.br/acoes/bpan4/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BPAN4",
+   "date": "2021-05-05",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.00727458,
+   "detail": "Dividendo obrigatorio; data-com 04/05/2021.",
+   "source": "https://www.dadosdemercado.com.br/acoes/bpan4/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BPAN4",
+   "date": "2021-12-22",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.21665401,
+   "detail": "JCP bruto; data-com 21/12/2021, pago 06/01/2022.",
+   "source": "https://www.dadosdemercado.com.br/acoes/bpan4/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BPAN4",
+   "date": "2022-05-12",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.02729055,
+   "detail": "Dividendo; data-com 11/05/2022.",
+   "source": "https://www.dadosdemercado.com.br/acoes/bpan4/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BPAN4",
+   "date": "2022-12-28",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.25133931,
+   "detail": "JCP bruto; data-com 27/12/2022, pago 24/01/2023. Nenhum provento entre jan e mai/2023 (fim da janela); proximo JCP so em dez/2023.",
+   "source": "https://www.dadosdemercado.com.br/acoes/bpan4/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2014-12-12",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.1395,
+   "detail": "JCP bruto. Datas HGTX3 = coluna 'Data' do Fundamentus (data-com; ex = pregao seguinte).",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2015-04-29",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.306,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2015-05-27",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.1725,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2015-10-28",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.1864,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2015-12-16",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.2125,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2016-04-27",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.2486,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2016-05-30",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.2616,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2016-11-04",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.2485,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2016-12-07",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.261,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2017-05-05",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.4661,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2017-06-07",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.2666,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2017-08-08",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.31,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2017-09-06",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.3089,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2017-11-29",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.2595,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2018-04-09",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.1853,
+   "detail": "Data-com Fundamentus; pago 15/05/2018.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2018-06-07",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.2471,
+   "detail": "Data-com Fundamentus; pago 27/06/2018.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2018-11-08",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.2478,
+   "detail": "Data-com Fundamentus; pago 28/11/2018.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2019-01-03",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.2478,
+   "detail": "Data-com Fundamentus; pago 15/01/2019.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2019-04-04",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.1423,
+   "detail": "Data-com Fundamentus; pago 24/04/2019.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2019-05-16",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.1268,
+   "detail": "Data-com Fundamentus; pago 05/07/2019.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2019-08-07",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.3088,
+   "detail": "Data-com Fundamentus; pago 05/09/2019.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2019-09-26",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.12,
+   "detail": "Data-com Fundamentus; pago 23/10/2019.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2019-12-16",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.112,
+   "detail": "Data-com Fundamentus; pago 30/12/2019.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2020-07-06",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.2196,
+   "detail": "Data-com Fundamentus; pago 18/11/2020.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2020-12-16",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.1052,
+   "detail": "Data-com Fundamentus; pago 30/12/2020.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2020-12-16",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.1153,
+   "detail": "Data-com Fundamentus; pago 30/12/2020 (mesma data-com do dividendo acima).",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "date": "2021-04-29",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.1069,
+   "detail": "Data-com Fundamentus; pago 26/05/2021. Ultimo provento antes da fusao com Grupo Soma (ultimo pregao 17/09/2021; cada HGTX3 recebeu R$9,5415843 em dinheiro + 1,625107 SOMA3).",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=HGTX3&tipo=2 ; https://www.suno.com.br/noticias/grupo-soma-soma3-hering-hgtx3-concluem-fusao/",
+   "confidence": "high"
+  },
+  {
+   "ticker": "JPSA3",
+   "date": "2017-04-27",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.1495,
+   "detail": "Data-com; pago 28/07/2017. Valor bruto reconstruido (dadosdemercado IGTI3 ajustado x10 pelo split de dez/2021).",
+   "source": "https://www.dadosdemercado.com.br/acoes/igti3/dividendos",
+   "confidence": "medium"
+  },
+  {
+   "ticker": "JPSA3",
+   "date": "2017-07-14",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.45,
+   "detail": "Data-com; pago 28/07/2017. Valor reconstruido (x10, ver nota de metodologia).",
+   "source": "https://www.dadosdemercado.com.br/acoes/igti3/dividendos",
+   "confidence": "medium"
+  },
+  {
+   "ticker": "JPSA3",
+   "date": "2018-04-26",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.1991,
+   "detail": "Data-com; pago 28/09/2018. Bate com yield 1,81% do meusdividendos.",
+   "source": "https://www.dadosdemercado.com.br/acoes/igti3/dividendos ; https://www.meusdividendos.com/empresa/JPSA",
+   "confidence": "high"
+  },
+  {
+   "ticker": "JPSA3",
+   "date": "2019-04-22",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.1991,
+   "detail": "Data-com; pago 31/10/2019.",
+   "source": "https://www.dadosdemercado.com.br/acoes/igti3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "JPSA3",
+   "date": "2020-07-08",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.1378,
+   "detail": "Data-com; pago 20/07/2020.",
+   "source": "https://www.dadosdemercado.com.br/acoes/igti3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "JPSA3",
+   "date": "2021-04-27",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.05689,
+   "detail": "Data-com 27/04/2021 (1a parcela, paga 30/06/2021). AGO aprovou duas parcelas iguais com a mesma data-com.",
+   "source": "https://www.dadosdemercado.com.br/acoes/igti3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "JPSA3",
+   "date": "2021-04-27",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.05689,
+   "detail": "Data-com 27/04/2021 (2a parcela, paga 29/10/2021). Mesma data-com da parcela anterior - para ajuste de preco na ex-data, somar as duas (total R$0,11378).",
+   "source": "https://www.dadosdemercado.com.br/acoes/igti3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "LCAM3",
+   "date": "2020-04-02",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0964,
+   "detail": "JCP bruto. Datas LCAM3 = coluna 'Data' do Fundamentus (data-com; ex = pregao seguinte).",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=LCAM3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "LCAM3",
+   "date": "2020-05-12",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0964,
+   "detail": "Data-com Fundamentus; pago 31/01/2021.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=LCAM3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "LCAM3",
+   "date": "2020-07-01",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0938,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=LCAM3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "LCAM3",
+   "date": "2020-09-18",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0925,
+   "detail": "Data-com Fundamentus; pago 09/10/2020.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=LCAM3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "LCAM3",
+   "date": "2020-12-29",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0877,
+   "detail": "Data-com Fundamentus; pago 12/01/2021.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=LCAM3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "LCAM3",
+   "date": "2021-03-24",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.088,
+   "detail": "Data-com Fundamentus; pago 07/04/2021.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=LCAM3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "LCAM3",
+   "date": "2021-06-24",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0957,
+   "detail": "Data-com Fundamentus; pago 07/07/2021.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=LCAM3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "LCAM3",
+   "date": "2021-09-29",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.1059,
+   "detail": "Data-com Fundamentus; pago 08/10/2021.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=LCAM3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "LCAM3",
+   "date": "2021-12-28",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.1195,
+   "detail": "Data-com Fundamentus; pago 07/01/2022.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=LCAM3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "LCAM3",
+   "date": "2022-03-24",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.1417,
+   "detail": "Data-com Fundamentus; pago 07/04/2022.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=LCAM3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "LCAM3",
+   "date": "2022-04-29",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.101,
+   "detail": "Data-com Fundamentus; pago 13/05/2022.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=LCAM3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "LCAM3",
+   "date": "2022-06-28",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.1629,
+   "detail": "Data-com Fundamentus; pago 08/07/2022.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=LCAM3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "LCAM3",
+   "date": "2022-07-01",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.8375,
+   "detail": "Dividendo condicional pre-fusao com a Localiza (R$425 mi). Relacao de troca final da fusao: 0,43884446 RENT3 por LCAM3; novas acoes negociadas a partir de 04/07/2022.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=LCAM3&tipo=2 ; https://www.seudinheiro.com/2022/economia/localiza-rent3-e-unidas-lcam3-apresentam-relacao-de-troca-final-de-acoes-veja-quanto-os-acionistas-receberao/",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI4",
+   "date": "2018-06-29",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.1187,
+   "detail": "JCP bruto. Datas BIDI4/BIDI11 = coluna 'Data' do Fundamentus (data-com; ex = pregao seguinte). Valores pre-04/07/2019 sao pre-split 1:6.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI4&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI4",
+   "date": "2018-09-28",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0917,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI4&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI4",
+   "date": "2018-12-28",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0905,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI4&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI4",
+   "date": "2019-03-25",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.1265,
+   "detail": "Data-com Fundamentus (pre-split 1:6).",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI4&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI4",
+   "date": "2019-06-27",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.1262,
+   "detail": "Data-com Fundamentus (pre-split 1:6).",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI4&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI4",
+   "date": "2019-09-30",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0182,
+   "detail": "Data-com Fundamentus (pos-split 1:6).",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI4&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI4",
+   "date": "2019-12-27",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0182,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI4&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI4",
+   "date": "2020-03-31",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0231,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI4&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI4",
+   "date": "2020-07-03",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0231,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI4&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI4",
+   "date": "2020-07-27",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0106,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI4&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI4",
+   "date": "2021-03-19",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0136,
+   "detail": "Data-com Fundamentus (pre-split 1:3 de mai/2021).",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI4&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI4",
+   "date": "2021-07-22",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0121,
+   "detail": "Data-com Fundamentus (pos-split 1:3).",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI4&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI4",
+   "date": "2022-03-10",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0148,
+   "detail": "Data-com Fundamentus. Ultimo provento antes da migracao para Inter&Co (ultimo pregao 17/06/2022; 6 acoes -> 1 BDR INBR31, ou cash-out R$6,45/acao).",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI4&tipo=2 ; https://riconnect.rico.com.vc/analises/o-que-aconteceu-com-as-acoes-do-banco-inter-bidi11-bidi3-e-bidi4/",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI11",
+   "date": "2019-09-30",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0547,
+   "detail": "JCP bruto por unit (1 ON + 2 PN); data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI11&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI11",
+   "date": "2019-12-27",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0545,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI11&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI11",
+   "date": "2020-03-31",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0693,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI11&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI11",
+   "date": "2020-07-03",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0694,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI11&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI11",
+   "date": "2020-07-27",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0317,
+   "detail": "Data-com Fundamentus.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI11&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI11",
+   "date": "2021-03-19",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0408,
+   "detail": "Data-com Fundamentus (pre-split 1:3).",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI11&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI11",
+   "date": "2021-07-22",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0363,
+   "detail": "Data-com Fundamentus (pos-split 1:3).",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI11&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "BIDI11",
+   "date": "2022-03-10",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0443,
+   "detail": "Data-com Fundamentus. Ultimo provento antes da migracao para Inter&Co (ultimo pregao 17/06/2022; 2 units -> 1 BDR INBR31, ou cash-out R$19,35/unit).",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=BIDI11&tipo=2 ; https://riconnect.rico.com.vc/analises/o-que-aconteceu-com-as-acoes-do-banco-inter-bidi11-bidi3-e-bidi4/",
+   "confidence": "high"
+  },
+  {
+   "ticker": "GETT11",
+   "date": "2022-01-21",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.3195592,
+   "detail": "JCP bruto por unit (GETT11 = 1 ON + 1 PN; liquido 0,27162532). Data-com 20/01/2022, ex 21/01/2022, pago 18/02/2022. Por acao: GETT3 0,152171 / GETT4 0,167388.",
+   "source": "https://www.poupardinheiro.com.br/getnet-gett11-pagara-298-mi-jcp-2022 ; https://statusinvest.com.br/acoes/gett11",
+   "confidence": "high"
+  },
+  {
+   "ticker": "GETT11",
+   "date": "2022-06-15",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.10309817,
+   "detail": "JCP bruto por unit (liquido ~0,08760). Data-com 14/06/2022, ex 15/06/2022, pago 27/06/2022. Por acao: GETT3 0,0491 / GETT4 0,0540.",
+   "source": "https://www.poupardinheiro.com.br/getnet-gett11-gett3-gett4-aprova-96-mi-jcp-2022-resultados",
+   "confidence": "high"
+  },
+  {
+   "ticker": "STBP3",
+   "date": "2023-10-31",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.08544,
+   "detail": "Data-com 30/10/2023, ex 31/10/2023, pago 13/11/2023 (uma de tres distribuicoes na mesma ex-data).",
+   "source": "https://www.dadosdemercado.com.br/acoes/stbp3/dividendos ; https://www.fundamentus.com.br/proventos.php?papel=STBP3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "STBP3",
+   "date": "2023-10-31",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.040823,
+   "detail": "Data-com 30/10/2023, ex 31/10/2023.",
+   "source": "https://www.dadosdemercado.com.br/acoes/stbp3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "STBP3",
+   "date": "2023-10-31",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.026583,
+   "detail": "Data-com 30/10/2023, ex 31/10/2023 (segunda parcela de dividendo na mesma ex-data).",
+   "source": "https://www.dadosdemercado.com.br/acoes/stbp3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "STBP3",
+   "date": "2023-12-26",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.0456,
+   "detail": "Data-com 22/12/2023, ex 26/12/2023, pago 05/01/2024. Presente no Fundamentus, ausente no dadosdemercado.",
+   "source": "https://www.fundamentus.com.br/proventos.php?papel=STBP3&tipo=2",
+   "confidence": "medium"
+  },
+  {
+   "ticker": "STBP3",
+   "date": "2023-12-26",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.038227,
+   "detail": "Data-com 22/12/2023, ex 26/12/2023, pago 08/01/2024.",
+   "source": "https://www.dadosdemercado.com.br/acoes/stbp3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "STBP3",
+   "date": "2024-03-25",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.163734,
+   "detail": "Data-com 22/03/2024, ex 25/03/2024, pago 04/04/2024.",
+   "source": "https://www.dadosdemercado.com.br/acoes/stbp3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "STBP3",
+   "date": "2024-05-28",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.068721,
+   "detail": "Data-com 27/05/2024, ex 28/05/2024, pago 14/06/2024.",
+   "source": "https://www.dadosdemercado.com.br/acoes/stbp3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "STBP3",
+   "date": "2024-05-28",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.040318,
+   "detail": "Data-com 27/05/2024, ex 28/05/2024, pago 14/06/2024.",
+   "source": "https://www.dadosdemercado.com.br/acoes/stbp3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "STBP3",
+   "date": "2024-08-13",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.20105,
+   "detail": "Data-com 12/08/2024, ex 13/08/2024, pago 27/08/2024.",
+   "source": "https://www.dadosdemercado.com.br/acoes/stbp3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "STBP3",
+   "date": "2024-08-13",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.041177,
+   "detail": "Data-com 12/08/2024, ex 13/08/2024, pago 27/08/2024.",
+   "source": "https://www.dadosdemercado.com.br/acoes/stbp3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "STBP3",
+   "date": "2024-10-17",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 1.852314,
+   "detail": "RESTITUICAO DE CAPITAL EM DINHEIRO (reducao de capital) - nao muda a quantidade de acoes, mas ajusta o preco como um dividendo. Data-com 16/10/2024, ex 17/10/2024, pago 07/11/2024.",
+   "source": "https://www.dadosdemercado.com.br/acoes/stbp3/dividendos ; https://www.fundamentus.com.br/proventos.php?papel=STBP3&tipo=2",
+   "confidence": "high"
+  },
+  {
+   "ticker": "STBP3",
+   "date": "2024-10-29",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.1466,
+   "detail": "Data-com 28/10/2024, ex 29/10/2024, pago 13/11/2024.",
+   "source": "https://www.dadosdemercado.com.br/acoes/stbp3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "STBP3",
+   "date": "2024-10-29",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.0426,
+   "detail": "Data-com 28/10/2024, ex 29/10/2024, pago 13/11/2024.",
+   "source": "https://www.dadosdemercado.com.br/acoes/stbp3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "STBP3",
+   "date": "2024-12-30",
+   "date_precision": "day",
+   "type": "jcp",
+   "factor": null,
+   "value_per_share": 0.046089,
+   "detail": "Data-com 27/12/2024, ex 30/12/2024, pago 09/01/2025.",
+   "source": "https://www.dadosdemercado.com.br/acoes/stbp3/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "STBP3",
+   "date": "2025-03-07",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 0.27,
+   "detail": "Data-com 06/03/2025, ex 07/03/2025, pago 17/03/2025. Fontes divergem levemente: 0,2700 (dadosdemercado) vs 0,2733 (fundamentus). Ultimo provento antes da OPA CMA CGM (leilao 12/09/2025 a R$14,38; ultimo pregao 03/10/2025).",
+   "source": "https://www.dadosdemercado.com.br/acoes/stbp3/dividendos ; https://www.moneytimes.com.br/tchau-bolsa-cma-conclui-opa-da-santos-brasil-stbp3-por-r-523-bilhoes-lmrs/",
+   "confidence": "medium"
+  },
+  {
+   "ticker": "AXIA6",
+   "date": "2025-11-17",
+   "date_precision": "day",
+   "type": "dividendo",
+   "factor": null,
+   "value_per_share": 2.078419,
+   "detail": "Dividendo intermediario aprovado pelo conselho em 06/11/2025 (total R$4,3 bi; PNB recebeu R$2,08 vs ON R$1,89). Data-com 14/11/2025, ex 17/11/2025, pago 19/12/2025. Unico provento em dinheiro com ex-data na janela out/2025-jun/2026 encontrado ate a data desta pesquisa (jul/2026).",
+   "source": "https://www.suno.com.br/noticias/axia-energia-axia3-eletrobras-dividendos-bilionarios-go/ ; https://www.dadosdemercado.com.br/acoes/axia6/dividendos",
+   "confidence": "high"
+  },
+  {
+   "ticker": "LCAM3",
+   "date": "2019-10-18",
+   "date_precision": "day",
+   "type": "split",
+   "factor": 3.0,
+   "value_per_share": null,
+   "detail": "Desdobramento 1:3 ex 18/10/2019 (fora da janela pesquisada, mas dentro da série COTAHIST) — confirmado pelo salto de -66,1% no preço bruto",
+   "source": "moneytimes/advfn + verificação empírica na série",
+   "confidence": "high"
+  }
+ ],
+ "no_capital_events": [
+  {
+   "ticker": "PETZ3",
+   "window": "2020-09..2025-09",
+   "detail": "Nenhum desdobramento/grupamento/bonificacao desde o IPO (set/2020) ate o fim da janela. O desdobramento 1:111,1 de fev/2025 foi das acoes da COBASI (fechada), nao afetou PETZ3. Delisting (jan/2026) fora da janela.",
+   "sources": [
+    "https://statusinvest.com.br/acoes/petz3",
+    "https://www.dadosdemercado.com.br/acoes/petz3",
+    "https://www.seudinheiro.com/2025/bolsa-dolar/em-meio-a-negociacao-com-a-petz-petz3-cobasi-aprova-desdobramento-de-acoes-miql-mnog/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ticker": "SOMA3",
+   "window": "2020-08..2024-08",
+   "detail": "Nenhum evento de capital. StatusInvest: 'NAO HA BONIFICACAO / NAO HA DESDOBRAMENTO OU GRUPAMENTO'. Incorporacao pela Arezzo: ultimo pregao 31/07/2024; 0,120446593048 AZZA3 por SOMA3.",
+   "sources": [
+    "https://statusinvest.com.br/acoes/soma3",
+    "https://www.infomoney.com.br/mercados/incorporacao-entre-soma-e-arezzo-e-aprovada-acao-da-nova-empresa-estreia-em-1-8/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ticker": "HGTX3",
+   "window": "2014-12..2021-09",
+   "detail": "NENHUM desdobramento/bonificacao na janela - a hipotese de evento em 2015-2016 foi checada e refutada (unico split da historia recente: 3:1 em 01/11/2010, fora da janela). Numero de acoes ~estavel (~162,5 mi), com pequenas reducoes por cancelamento de recompras (nao exigem ajuste). Fusao: ultimo pregao 17/09/2021; cada HGTX3 -> R$9,5415843 + 1,625107 SOMA3.",
+   "sources": [
+    "https://www.investing.com/equities/cia-hering-on-nm-historical-data-splits",
+    "https://www.dadosdemercado.com.br/acoes/hgtx3",
+    "https://www.suno.com.br/noticias/grupo-soma-soma3-hering-hgtx3-concluem-fusao/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ticker": "JPSA3",
+   "window": "2017-01..2021-11",
+   "detail": "Nenhum evento de capital DENTRO da janela. Eventos de borda (fora): grupamento 10:1 ex ~28/04/2016 (antes) e desdobramento 1:10 ja como IGTI3 ex 27/12/2021 (depois). Conversao JPSA3 -> IGTI3 foi 1:1 em 29/11/2021 (Jereissati foi a entidade sobrevivente renomeada Iguatemi S.A.).",
+   "sources": [
+    "https://www.investing.com/equities/jereissati-participacoes-historical-data-splits",
+    "https://www.suno.com.br/noticias/iguatemi-igti3-desdobramento-acoes/",
+    "https://www.suno.com.br/noticias/iguatemi-igta3-jereissati-jpsa3-reorganizacao/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "ticker": "LCAM3",
+   "window": "2020-01..2022-07",
+   "detail": "NENHUM desdobramento na janela - a hipotese de split em ~2021 foi checada e refutada: o unico split foi 1:3 com ex 18/10/2019 (aprovado 17/10/2019), ANTES da janela. Toda a cobertura de imprensa sobre 'desdobramento LCAM3' e de set-out/2019. Serie de JCP 2020-2022 sem descontinuidade 3x confirma. Fusao Localiza: 0,43884446 RENT3 por LCAM3, jul/2022.",
+   "sources": [
+    "https://www.moneytimes.com.br/unidas-aprova-desdobramento-de-1-para-3-acoes/",
+    "https://br.advfn.com/jornal/2019/09/unidas-e-locamerica-anunciam-desdobramento-de-acoes",
+    "https://www.dadosdemercado.com.br/acoes/lcam3"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ticker": "BPAN4",
+   "window": "2020-09..2023-05",
+   "detail": "Nenhum evento de capital na janela (StatusInvest: sem registros de desdobramento/grupamento/bonificacao; apenas subscricao em 2017, fora da janela).",
+   "sources": [
+    "https://statusinvest.com.br/acoes/bpan4"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ticker": "GETT11",
+   "window": "2021-04..2022-12",
+   "detail": "Nenhum desdobramento/grupamento/bonificacao entre a listagem (units estrearam na B3 em 22/10/2021, cisao do Santander; unit = 1 GETT3 + 1 GETT4) e o fechamento de capital. OPA PagoNxt/Santander: R$4,72/unit (R$2,36/acao) + ate R$0,42/ativo em proventos ate a liquidacao; leilao 01/12/2022; retardatarios puderam vender ate 02/03/2023.",
+   "sources": [
+    "https://statusinvest.com.br/acoes/gett11",
+    "https://www.seudinheiro.com/2022/empresas/getnet-gett11-santander-opa-bolsa-fechar-capital-ccgg/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ticker": "STBP3",
+   "window": "2023-09..2025-10",
+   "detail": "Nenhum desdobramento/grupamento/bonificacao na janela (todas as tabelas de proventos com 'por 1 acao', sem saltos). OBS: a restituicao de capital de 16-17/10/2024 (R$1,852314/acao) foi EM DINHEIRO e nao mudou a quantidade de acoes - esta lancada como evento tipo dividendo. OPA CMA CGM: leilao 12/09/2025 a R$14,38/acao (liquidacao 16/09/2025); ultimo pregao 03/10/2025.",
+   "sources": [
+    "https://www.fundamentus.com.br/proventos.php?papel=STBP3&tipo=2",
+    "https://www.infomoney.com.br/mercados/santos-brasil-stbp3-deixara-a-bolsa-em-3-de-outubro/",
+    "https://www.moneytimes.com.br/tchau-bolsa-cma-conclui-opa-da-santos-brasil-stbp3-por-r-523-bilhoes-lmrs/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ticker": "AXIA6",
+   "window": "2025-10..2026-06",
+   "detail": "A quantidade de acoes AXIA6 NAO mudou na janela. A bonificacao de dez/2025 emitiu acoes de OUTRA classe (AXIA7/PNC) a razao de 0,2628378881074 AXIA7 por acao existente (ver evento tipo bonificacao com factor 1.0). Rename ELET6 -> AXIA6 em 10/11/2025 (sem ratio). Resgate de R$30 mi de PNC anunciado em 2026 afeta apenas AXIA7.",
+   "sources": [
+    "https://www.seudinheiro.com/2025/bolsa-dolar/axia-energia-antiga-eletrobras-estreia-novo-ticker-na-b3-nesta-segunda-feira-10-veja-o-que-muda-kaes/",
+    "https://www.moneytimes.com.br/axia-energia-aprova-resgate-de-r-30-milhoes-de-acoes-pnc-veja-condicoes-lmrs/"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "dividend_coverage": {
+  "PETZ3": {
+   "quality": "full_per_payment",
+   "source": "StatusInvest (fundamentus bloqueado no ambiente); valores brutos; 1 linha com suspeita de duplicidade (JCP 0,01269064 em 2021 E 2022 - a de 2022 marcada low). 2025: nada pago.",
+   "annual_totals_gross": {
+    "2020": 0.0331,
+    "2021": 0.0422,
+    "2022": 0.0348,
+    "2023": 0.017,
+    "2024": 0.2911,
+    "2025": 0.0
+   }
+  },
+  "SOMA3": {
+   "quality": "full_per_payment",
+   "source": "StatusInvest + dadosdemercado (concordam). Apenas 3 dividendos na historia; nunca pagou JCP; nada em 2020-2021.",
+   "annual_totals_gross": {
+    "2020": 0.0,
+    "2021": 0.0,
+    "2022": 0.0907,
+    "2023": 0.1014,
+    "2024": 0.0882
+   }
+  },
+  "BPAN4": {
+   "quality": "full_per_payment",
+   "source": "StatusInvest + dadosdemercado (concordam a 5-6 decimais). Padrao: JCP em dezembro + dividendo pequeno em maio.",
+   "annual_totals_gross": {
+    "2020_from_sep": 0.2042,
+    "2021": 0.2239,
+    "2022": 0.2786,
+    "2023_to_may": 0.0
+   }
+  },
+  "HGTX3": {
+   "quality": "full_per_payment",
+   "source": "Fundamentus (arquivo de ticker deslistado), cross-check Investidor10. Datas = data-com.",
+   "annual_totals_gross": {
+    "2014_dec": 0.1395,
+    "2015": 0.8774,
+    "2016": 1.0197,
+    "2017": 1.6111,
+    "2018": 0.6802,
+    "2019": 1.0577,
+    "2020": 0.4401,
+    "2021": 0.1069
+   }
+  },
+  "JPSA3": {
+   "quality": "reconstructed_medium",
+   "source": "Fundamentus vazio para JPSA3; reconstruido do dadosdemercado IGTI3 (valores ajustados x10 para desfazer o split 1:10 de dez/2021), cross-check meusdividendos/Investing. 2017 com confianca media. Valores pequenos (yield 0,4-3% a.a.) - impacto quase negligivel no backtest.",
+   "annual_totals_gross": {
+    "2017": 0.5995,
+    "2018": 0.1991,
+    "2019": 0.1991,
+    "2020": 0.1378,
+    "2021": 0.1138
+   }
+  },
+  "LCAM3": {
+   "quality": "full_per_payment",
+   "source": "Fundamentus (ticker deslistado). Datas = data-com. Inclui dividendo condicional pre-fusao de R$0,8375 (jul/2022).",
+   "annual_totals_gross": {
+    "2020": 0.4668,
+    "2021": 0.4091,
+    "2022_to_jul": 1.2431
+   }
+  },
+  "BIDI4": {
+   "quality": "full_per_payment",
+   "source": "Fundamentus (ticker deslistado); todos JCP brutos; datas = data-com. Serie internamente consistente com os splits (queda 6x apos jul/2019).",
+   "annual_totals_gross": {
+    "2018": 0.3009,
+    "2019": 0.2891,
+    "2020": 0.0568,
+    "2021": 0.0257,
+    "2022": 0.0148
+   }
+  },
+  "BIDI11": {
+   "quality": "full_per_payment",
+   "source": "Fundamentus; valores por unit (~3x BIDI4, consistente com 1 ON + 2 PN). Units so existem desde jul-ago/2019.",
+   "annual_totals_gross": {
+    "2019": 0.1092,
+    "2020": 0.1704,
+    "2021": 0.0771,
+    "2022": 0.0443
+   }
+  },
+  "GETT11": {
+   "quality": "full_per_payment",
+   "source": "StatusInvest + Poupar Dinheiro (Fundamentus vazio para GETT11). Apenas 2 JCPs, ambos com ex em 2022; nada com ex-data em 2021.",
+   "annual_totals_gross": {
+    "2021": 0.0,
+    "2022": 0.42266
+   }
+  },
+  "STBP3": {
+   "quality": "full_per_payment",
+   "source": "Fundamentus + dadosdemercado (cross-check); 2 discrepancias menores sinalizadas (dividendo 0,0456 de dez/2023 so no Fundamentus; mar/2025 0,2700 vs 0,2733). Inclui restituicao de capital de R$1,852314 (out/2024) como evento tipo dividendo.",
+   "annual_totals_gross": {
+    "2023_from_sep": 0.2367,
+    "2024": 2.6026,
+    "2025_to_opa": 0.27
+   }
+  },
+  "AXIA6": {
+   "quality": "full_per_payment",
+   "source": "Suno + dadosdemercado + StatusInvest. Um unico provento em dinheiro na janela (R$2,078419, ex 17/11/2025); nenhum JCP/dividendo com ex-data jan-jun/2026 encontrado.",
+   "annual_totals_gross": {
+    "2025_window_oct_dec": 2.078419,
+    "2026_to_jun": 0.0
+   }
+  },
+  "VVAR11": {
+   "quality": "skipped",
+   "source": "Pulado conforme instrucao (contexto apenas; precos ja disponiveis).",
+   "annual_totals_gross": {}
+  }
+ },
+ "notes": [
+  "CONVENCAO DE DATAS: eventos com 'ex' explicito no detail usam a ex-data no campo date. Para HGTX3, LCAM3, BIDI4 e BIDI11 (tabelas Fundamentus) o campo date e a coluna 'Data' do Fundamentus, que corresponde a DATA-COM: a ex-data e o pregao seguinte. Ao ajustar precos COTAHIST, aplicar o desconto no pregao seguinte a data listada para esses 4 tickers.",
+  "JCP: todos os valores sao BRUTOS (antes do IR de 15% retido na fonte). Para total-return liquido, multiplicar JCP por 0,85.",
+  "BIDI4 vs BIDI11: o split 1:6 (ex 04/07/2019) afeta APENAS BIDI3/BIDI4; as units BIDI11 foram criadas depois (jul-ago/2019) e nao precisam de ajuste em 2019. O split 1:3 (ex 26/05/2021) afeta ambos. Investing.com lista micro-'splits' de 1.00145 (07/2018) e 1.00077 (07/2020) - artefatos de pequenos aumentos de capital, ignorar.",
+  "Fim de serie por reorganizacao (nao exigem fator, apenas truncamento da serie): HGTX3 ultimo pregao 17/09/2021 (R$9,5415843 + 1,625107 SOMA3 por acao); SOMA3 ultimo pregao 31/07/2024 (0,120446593048 AZZA3 por acao); LCAM3 ultimo pregao ~01/07/2022 (0,43884446 RENT3 por acao); BIDI3/4/11 ultimo pregao 17/06/2022 (6 acoes ou 2 units -> 1 BDR INBR31; cash-out R$6,45/acao, R$19,35/unit); JPSA3 -> IGTI3 1:1 em 29/11/2021; GETT11 leilao OPA 01/12/2022 a R$4,72/unit; STBP3 leilao OPA 12/09/2025 a R$14,38, ultimo pregao 03/10/2025; PETZ3 ultimo pregao 02/01/2026 (fora da janela).",
+  "AXIA6: a bonificacao de 22/12/2025 foi em acoes de OUTRA classe (AXIA7). Quantidade de AXIA6 inalterada (factor 1.0 no evento); o ajuste correto de preco na ex-data e subtrair 0,2628378881074 x preco de mercado da AXIA7 em 22/12/2025 (valor fiscal atribuido: R$49,44/AXIA7 => ~R$13,00 por acao AXIA6, mas o preco de mercado da AXIA7 na estreia e a referencia melhor).",
+  "JPSA3: dividendos reconstruidos multiplicando por 10 os valores 'ajustados' do dadosdemercado (que desconta o split 1:10 de 27/12/2021 ocorrido ja sob IGTI3). As duas parcelas de 2021 tem a MESMA data-com (27/04/2021) - para ajuste de preco, somar (R$0,11378).",
+  "STBP3: a 'restituicao de capital' de R$1,852314 (ex 17/10/2024) esta no array events com type dividendo - e o maior ajuste de preco da serie STBP3 na janela (~15% do preco na epoca); nao ignorar.",
+  "GETT11: a janela pedida comeca em 2021-04, mas as units so negociam desde 22/10/2021 (cisao do Santander).",
+  "Fundamentus estava inacessivel via fetch para alguns tickers neste ambiente; onde isso ocorreu (PETZ3/SOMA3/BPAN4/GETT11) usou-se StatusInvest/dadosdemercado com cross-check duplo.",
+  "Pesquisa realizada em 2026-07-21."
+ ]
+}
